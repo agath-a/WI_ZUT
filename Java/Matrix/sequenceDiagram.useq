@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.2" icons="true">  
+  <object id="1" language="java" name="matrix.operation.Main" project="Matrix" 
+    file="/Matrix/src/matrix/operation/Main.java" binary="false" label="main" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="268" y="0"/>    
+    <execution id="2">      
+      <position height="461" width="74" x="5" y="79"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="7" x="39" y="393"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="matrix.operation.Matrix" project="Matrix" 
+    file="/Matrix/src/matrix/operation/Matrix.java" binary="false" label="A" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="245" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="74" x="83" y="100"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="235" width="74" x="83" y="284"/>    
+    </execution>    
+    <execution id="15">      
+      <position height="63" width="7" x="117" y="372"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="matrix.operation.Matrix" project="Matrix" 
+    file="/Matrix/src/matrix/operation/Matrix.java" binary="false" label="B" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="194" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="74" x="161" y="135"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="193" width="74" x="161" y="305"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="105" width="7" x="195" y="351"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="matrix.operation.Matrix" project="Matrix" 
+    file="/Matrix/src/matrix/operation/Matrix.java" binary="false" label="C" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="209" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="74" x="239" y="168"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="151" width="74" x="239" y="326"/>    
+    </execution>  
+  </object>  
+  <message id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="setMatrix(int[][]):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="13" operation="multiplyMatrix(java.lang.Object,int,int,int):int[][]">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="18" operation="getElementOfMatrix(int,int):int">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="21">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="23">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>
+</sequence-diagram>
