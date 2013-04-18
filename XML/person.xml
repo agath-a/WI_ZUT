@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<person xmlns="http://www.w3schools.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.w3schools.com schemaPerson.xsd">
+	
+	<name>Anna</name>
+	<surname>Dobrowolska</surname>
+	<birth_date>1985-03-03</birth_date>
+    <age>34</age>
+    <id>85030310343</id>
+    <sex>Female</sex>
+	
+</person>
